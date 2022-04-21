@@ -1,0 +1,33 @@
+php artisan infyom:scaffold DocumentType --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/document_types.json
+php artisan infyom:rollback DocumentType scaffold 
+
+php artisan infyom:scaffold Gender --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/genders.json
+php artisan infyom:rollback Gender scaffold 
+
+php artisan infyom:scaffold Department --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/departments.json
+php artisan infyom:rollback Department scaffold 
+
+php artisan infyom:scaffold Municipality --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/municipalities.json
+php artisan infyom:rollback Municipalitiy scaffold 
+
+php artisan infyom:scaffold Discount --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/discounts.json
+php artisan infyom:rollback Discount scaffold 
+
+php artisan infyom:scaffold Iva --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/ivas.json
+php artisan infyom:rollback Iva scaffold 
+
+php artisan infyom:scaffold Bank --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/banks.json
+php artisan infyom:rollback Bank scaffold 
+
+
+php artisan infyom:scaffold TypeVehicle --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/type_vehicles.json
+php artisan infyom:rollback TypeVehicle scaffold 
+
+php artisan infyom:scaffold Quota --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/quotas.json
+php artisan infyom:rollback Quota scaffold 
+
+php artisan infyom:scaffold Vehicle --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/vehicles.json
+php artisan infyom:rollback Vehicle scaffold 
+
+php artisan infyom:scaffold TypeAccount --prefix=Backend --factory --seeder --paginate=5 --fieldsFile=./_etc/json_scaffolding/type_accounts.json
+php artisan infyom:rollback TypeAccount scaffold 
